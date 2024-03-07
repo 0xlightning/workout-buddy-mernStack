@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container1 {
+  background-color: white;
+  margin: 30px 50px;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr; 
+  grid-gap: 20px;
+  background-color: rgb(232, 226, 226); 
+}
+
+.workouts {
+  padding: 20px;
+  display: grid; 
+  grid-gap: 20px;
+} 
+
+.workouts h4 {
+  font-weight: bold;
+  color: #a7e34d; 
+}
+
+.workouts p {
+  color: #3b3a3a; 
+}
+
+.workout-details {
+  border: 1px solid black;
+  border-radius: 10px; 
+  background-color: white; 
+  padding: 20px;
+  height: 100px;
+  overflow: none; 
+}
+
+.link {
+  color: rgb(205, 107, 50); 
+  text-decoration: none; 
+}
+
+.link:hover {
+  color: #ff0000;
+}
+
+/* form */
+.form {
+  margin: 30px 10px;
+  max-width:350px;
+  max-height: 330px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #af4c4c;
+  color: white;
+  padding: 10px ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #943b3b;
+}
